@@ -3,7 +3,7 @@ session_start();
 if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = trim($_POST["username"]);
     $password = trim($_POST["password"]);
-    if ($username === "test_h4ck3r_login_28d73d" && $password === "test_h4ck3r_password_28d73d"){
+    if ($username === "test_user" && $password === "GCu1y3PgJGB2K2H9MxUrxIsgg"){
       session_start();
       $_SESSION['is_auth'] = 1;
       header('Location: /profile?user=1');
